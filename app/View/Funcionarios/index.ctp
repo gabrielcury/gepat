@@ -4,7 +4,7 @@
 
 <table >
   <tr>
-    <th colspan="7" align="right" scope="col">Incluir novo</th>
+    <td colspan="7" style="text-align:right;"><?php echo $this->Html->link('Criar novo funcionário', array('controller' => 'funcionarios', 'action' => 'new')); ?></td>
   </tr>
   
   <tr>
